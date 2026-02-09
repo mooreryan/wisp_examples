@@ -6,8 +6,8 @@ The `justfile` has some helpful dev scripts if you want to take a look. Some of 
 
 ## Examples
 
-- [`hello_world`](https://github.com/mooreryan/wisp/wisp_examples/main/hello_world): Hello, World!
-- [`tailwind`](https://github.com/mooreryan/wisp/wisp_examples/main/tailwind/): Using tailwindcss, daisyUI, & serving static assets
+- [`hello_world`](https://github.com/mooreryan/wisp_examples/tree/main/hello_world): Hello, World!
+- [`tailwind`](https://github.com/mooreryan/wisp_examples/tree/main/tailwind): Using tailwindcss, daisyUI, & serving static assets
 
 ## See Also
 
