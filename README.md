@@ -8,6 +8,7 @@ The `justfile` has some helpful dev scripts if you want to take a look. Some of 
 
 - [`hello_world`](https://github.com/mooreryan/wisp_examples/tree/main/hello_world): Hello, World!
 - [`tailwind`](https://github.com/mooreryan/wisp_examples/tree/main/tailwind): Using tailwindcss, daisyUI, & serving static assets
+- [`client_side_form_validation`](https://github.com/mooreryan/wisp_examples/tree/main/client_side_form_validation): Using browser's built-in form validation with tailwind and daisyUI styling.
 
 ## See Also
 
