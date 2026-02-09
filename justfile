@@ -24,3 +24,14 @@ tailwind_dev:
 
 tailwind:
     cd tailwind && npx @tailwindcss/cli -i ./assets/css/app.css -o ./priv/static/css/app.css --minify && gleam run
+
+client_side_form_validation_dev:
+    cd client_side_form_validation && \
+    watchexec \
+        --debounce 500ms \
+        --restart \
+        --watch src \
+        --watch test \
+        --watch assets \
+        --watch gleam.toml \
+        -- 'sleep 2 && npx @tailwindcss/cli -i ./assets/css/app.css -o ./priv/static/css/app.css && gleam run'
